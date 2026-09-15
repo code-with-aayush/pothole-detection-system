@@ -44,3 +44,11 @@ AGENTS.md
 .agents/
 .gemini/
 
+# Local documents & video recordings
+PRD.md
+*.mp4
+*.mov
+*.webm
+*.avi
+*.mkv
+
