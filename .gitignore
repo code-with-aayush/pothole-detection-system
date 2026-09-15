@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Model weights & uploads
+backend/models/*.pt
+backend/models/*.onnx
+backend/runs/
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Next.js
+frontend/.next/
+frontend/out/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Assistant & Agent files
+CLAUDE.md
+AGENTS.md
+.agent/
+.agents/
+.gemini/
+

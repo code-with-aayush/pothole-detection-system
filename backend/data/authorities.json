@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Municipal Corporation of Delhi",
+    "shortName": "MCD",
+    "email": "demo-mcd@example.com",
+    "description": "Municipal roads and civic infrastructure in central and urban Delhi",
+    "bounds": {
+      "minLat": 28.55,
+      "maxLat": 28.72,
+      "minLng": 77.10,
+      "maxLng": 77.28
+    },
+    "roadPatterns": ["MCD Road", "Ward Road", "Colony Road"]
+  },
+  {
+    "name": "Public Works Department",
+    "shortName": "PWD",
+    "email": "demo-pwd@example.com",
+    "description": "Arterial roads, flyovers, and state highways across National Capital Territory",
+    "bounds": {
+      "minLat": 28.45,
+      "maxLat": 28.88,
+      "minLng": 76.90,
+      "maxLng": 77.35
+    },
+    "roadPatterns": ["Ring Road", "Outer Ring Road", "PWD Arterial"]
+  },
+  {
+    "name": "National Highways Authority of India",
+    "shortName": "NHAI",
+    "email": "demo-nhai@example.com",
+    "description": "National expressways and highways traversing Delhi NCR corridor",
+    "bounds": {
+      "minLat": 28.20,
+      "maxLat": 29.10,
+      "minLng": 76.60,
+      "maxLng": 77.60
+    },
+    "roadPatterns": ["NH-48", "NH-44", "NE-3", "Expressway"]
+  },
+  {
+    "name": "Unassigned Road Authority",
+    "shortName": "UNKNOWN",
+    "email": "unassigned@example.com",
+    "description": "Fallback authority when coordinates are outside Delhi NCR or missing",
+    "bounds": null,
+    "roadPatterns": []
+  }
+]
